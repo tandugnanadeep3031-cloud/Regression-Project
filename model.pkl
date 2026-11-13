@@ -1,0 +1,5 @@
+import joblib
+
+# Assuming your trained model is named 'regressor' or 'model'
+# Save the model to a file named 'model.pkl'
+joblib.dump(model, 'model.pkl')
